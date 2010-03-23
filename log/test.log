@@ -76,3 +76,168 @@ Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/contact]
 Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:18:32) [GET]
 Rendering pages/home
 Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 15:32:10) [GET]
+Rendering pages/about
+Completed in 3ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 15:32:10) [GET]
+Rendering pages/contact
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:32:10) [GET]
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 15:32:55) [GET]
+Rendering pages/about
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 15:32:55) [GET]
+Rendering pages/contact
+Completed in 2ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:32:55) [GET]
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 15:36:54) [GET]
+Rendering pages/about
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 15:36:54) [GET]
+Rendering pages/contact
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:36:54) [GET]
+Rendering pages/home
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 15:39:23) [GET]
+Rendering pages/about
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 15:39:23) [GET]
+Rendering pages/contact
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:39:23) [GET]
+Rendering pages/home
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:39:23) [GET]
+Rendering pages/home
+Completed in 1ms (View: 0, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 15:41:15) [GET]
+Rendering pages/about
+Completed in 27ms (View: 23, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 15:41:15) [GET]
+Rendering pages/contact
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:41:15) [GET]
+Rendering pages/home
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:41:15) [GET]
+Rendering pages/home
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 15:41:55) [GET]
+Rendering pages/about
+Completed in 24ms (View: 21, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 15:41:55) [GET]
+Rendering pages/contact
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:41:55) [GET]
+Rendering pages/home
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:41:55) [GET]
+Rendering pages/home
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 15:45:26) [GET]
+Rendering pages/about
+Completed in 25ms (View: 21, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:45:26) [GET]
+Rendering pages/home
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 15:45:26) [GET]
+Rendering pages/contact
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:45:27) [GET]
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:45:27) [GET]
+Rendering pages/home
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:45:27) [GET]
+Rendering pages/home
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 15:46:12) [GET]
+Rendering pages/about
+Completed in 25ms (View: 22, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 15:46:12) [GET]
+Rendering pages/about
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 15:46:12) [GET]
+Rendering pages/contact
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 15:46:12) [GET]
+Rendering pages/contact
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:46:12) [GET]
+Rendering pages/home
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 15:46:12) [GET]
+Rendering pages/home
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/home]
