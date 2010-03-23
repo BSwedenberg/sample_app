@@ -431,3 +431,25 @@ Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/rails/info/proper
 Processing PagesController#home (for 127.0.0.1 at 2010-03-23 13:29:59) [GET]
 Rendering pages/home
 Completed in 105ms (View: 102, DB: 0) | 200 OK [http://localhost/pages/home/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-23 16:28:23) [GET]
+Rendering pages/home
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/home/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-23 16:45:34) [GET]
+Rendering pages/home
+Completed in 29ms (View: 24, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-23 16:49:05) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 171ms (View: 166, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-03-23 16:49:11) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/pages/about]
