@@ -271,3 +271,423 @@ Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/pages/home]
 Processing PagesController#home (for 0.0.0.0 at 2010-03-23 16:13:53) [GET]
 Rendering pages/home
 Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 17:25:42) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 21ms (View: 18, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 17:25:42) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 17:25:42) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 17:25:42) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 17:25:42) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 17:25:42) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 17:27:30) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-23 17:27:30) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 17:27:30) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-23 17:27:30) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 17:27:30) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-23 17:27:30) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-24 14:20:41) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 32ms (View: 29, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-24 14:20:41) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-24 14:20:41) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-24 14:20:41) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-24 14:20:41) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-24 14:20:41) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-24 15:55:59) [GET]
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+  spec/integration/layout_links_spec.rb:5
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  C:/Ruby/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.3.0) bin/spec:5
+  C:/Ruby/bin/spec:19:in `load'
+  C:/Ruby/bin/spec:19
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-24 15:55:59) [GET]
+
+ActionController::RoutingError (No route matches "/contact" with {:method=>:get}):
+  spec/integration/layout_links_spec.rb:10
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  C:/Ruby/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.3.0) bin/spec:5
+  C:/Ruby/bin/spec:19:in `load'
+  C:/Ruby/bin/spec:19
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-24 15:55:59) [GET]
+
+ActionController::RoutingError (No route matches "/about" with {:method=>:get}):
+  spec/integration/layout_links_spec.rb:15
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  C:/Ruby/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.3.0) bin/spec:5
+  C:/Ruby/bin/spec:19:in `load'
+  C:/Ruby/bin/spec:19
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-03-24 15:55:59) [GET]
+
+ActionController::RoutingError (No route matches "/help" with {:method=>:get}):
+  spec/integration/layout_links_spec.rb:20
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `instance_eval'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:40:in `execute'
+  C:/Ruby/lib/ruby/1.8/timeout.rb:53:in `timeout'
+  rspec (1.3.0) lib/spec/example/example_methods.rb:37:in `execute'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:214:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `each'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:212:in `run_examples'
+  rspec (1.3.0) lib/spec/example/example_group_methods.rb:103:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:23:in `run'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `each'
+  rspec (1.3.0) lib/spec/runner/example_group_runner.rb:22:in `run'
+  rspec (1.3.0) lib/spec/runner/options.rb:152:in `run_examples'
+  rspec (1.3.0) lib/spec/runner/command_line.rb:9:in `run'
+  rspec (1.3.0) bin/spec:5
+  C:/Ruby/bin/spec:19:in `load'
+  C:/Ruby/bin/spec:19
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-24 15:55:59) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (68.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 81ms (View: 79, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-24 15:55:59) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-24 15:56:00) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-24 15:56:00) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-24 15:56:00) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-24 15:56:00) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-24 16:09:54) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (3.0ms)
+Completed in 91ms (View: 89, DB: 0) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-03-24 16:09:55) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-03-24 16:09:55) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-24 16:09:55) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-24 16:09:55) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-24 16:09:55) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-24 16:09:55) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-24 16:09:55) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-24 16:09:55) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-03-24 16:13:13) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (2.0ms)
+Completed in 95ms (View: 92, DB: 0) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-03-24 16:13:13) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-03-24 16:13:13) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-24 16:13:13) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-03-24 16:13:13) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-24 16:13:13) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-03-24 16:13:13) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-24 16:13:13) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-03-24 16:13:13) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/home]
