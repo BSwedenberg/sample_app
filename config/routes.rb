@@ -44,5 +44,7 @@ ActionController::Routing::Routes.draw do |map|
   map.contact '/contact', :controller => 'pages', :action => 'contact'
   map.about   '/about',   :controller => 'pages', :action => 'about'
   map.root :controller => 'pages', :action => 'home'
+  
+  map.signup '/signup', :controller => 'users', :action => 'new'
 
 end
