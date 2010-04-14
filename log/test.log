@@ -4773,3 +4773,2029 @@ Rendered layouts/_stylesheets (1.0ms)
 Rendered layouts/_header (0.0ms)
 Rendered layouts/_footer (0.0ms)
 Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-09 17:08:48) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (66.0ms)
+Rendered layouts/_footer (2.0ms)
+Completed in 105ms (View: 101, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'f3d0d54330cec12258d96d9cc5a5de57e9c59532f085fac1ecc9535ecf42dd7b', 'a03b27b39ead20d9d78faf9b5d7608ac8d44fea466ce15d5aabac7271a7b8167', '2010-04-09 21:08:49', 'malpal@email.com', '2010-04-09 21:08:49')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-09 17:08:49) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-09 21:08:49", updated_at: "2010-04-09 21:08:49", encrypted_password: "f3d0d54330cec12258d96d9cc5a5de57e9c59532f085fac1ecc...", salt: "a03b27b39ead20d9d78faf9b5d7608ac8d44fea466ce15d5aab...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 8ms (View: 7, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'f3d0d54330cec12258d96d9cc5a5de57e9c59532f085fac1ecc9535ecf42dd7b', 'a03b27b39ead20d9d78faf9b5d7608ac8d44fea466ce15d5aabac7271a7b8167', '2010-04-09 21:08:49', 'malpal@email.com', '2010-04-09 21:08:49')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-09 17:08:49) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-09 21:08:49", updated_at: "2010-04-09 21:08:49", encrypted_password: "f3d0d54330cec12258d96d9cc5a5de57e9c59532f085fac1ecc...", salt: "a03b27b39ead20d9d78faf9b5d7608ac8d44fea466ce15d5aab...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 2) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'f3d0d54330cec12258d96d9cc5a5de57e9c59532f085fac1ecc9535ecf42dd7b', 'a03b27b39ead20d9d78faf9b5d7608ac8d44fea466ce15d5aabac7271a7b8167', '2010-04-09 21:08:49', 'malpal@email.com', '2010-04-09 21:08:49')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-09 17:08:49) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-09 21:08:49", updated_at: "2010-04-09 21:08:49", encrypted_password: "f3d0d54330cec12258d96d9cc5a5de57e9c59532f085fac1ecc...", salt: "a03b27b39ead20d9d78faf9b5d7608ac8d44fea466ce15d5aab...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 5, DB: 3) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-09 17:08:49) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-09 17:08:49) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-09 17:08:49) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-09 17:08:49) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-09 17:08:49) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-09 17:08:49) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-09 17:10:02) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (66.0ms)
+Rendered layouts/_footer (2.0ms)
+Completed in 105ms (View: 102, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-09 17:10:03) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '641c3de75cff353a78855c1cdbabdbdf3c035d03bbb574623cb0953c95b2de05', '36c09a57efdd8525dd41687264300dad405e7de58365416edc5bc230a00d48a5', '2010-04-09 21:10:03', 'malpal@email.com', '2010-04-09 21:10:03')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-09 17:10:03) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-09 21:10:03", updated_at: "2010-04-09 21:10:03", encrypted_password: "641c3de75cff353a78855c1cdbabdbdf3c035d03bbb574623cb...", salt: "36c09a57efdd8525dd41687264300dad405e7de58365416edc5...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 8ms (View: 7, DB: 1) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '641c3de75cff353a78855c1cdbabdbdf3c035d03bbb574623cb0953c95b2de05', '36c09a57efdd8525dd41687264300dad405e7de58365416edc5bc230a00d48a5', '2010-04-09 21:10:03', 'malpal@email.com', '2010-04-09 21:10:03')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-09 17:10:03) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-09 21:10:03", updated_at: "2010-04-09 21:10:03", encrypted_password: "641c3de75cff353a78855c1cdbabdbdf3c035d03bbb574623cb...", salt: "36c09a57efdd8525dd41687264300dad405e7de58365416edc5...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 1) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '641c3de75cff353a78855c1cdbabdbdf3c035d03bbb574623cb0953c95b2de05', '36c09a57efdd8525dd41687264300dad405e7de58365416edc5bc230a00d48a5', '2010-04-09 21:10:03', 'malpal@email.com', '2010-04-09 21:10:03')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-09 17:10:03) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-09 21:10:03", updated_at: "2010-04-09 21:10:03", encrypted_password: "641c3de75cff353a78855c1cdbabdbdf3c035d03bbb574623cb...", salt: "36c09a57efdd8525dd41687264300dad405e7de58365416edc5...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 6, DB: 3) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-09 17:10:03) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-09 17:10:03) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-09 17:10:03) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-09 17:10:03) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-09 17:10:03) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-09 17:10:03) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-09 18:18:48) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 118ms (View: 113, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-09 18:18:49) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '661d59b48bd14c14b0c094585f95dada3b0e23213400a8e756979d69948aa7b8', 'bd1f699aab5a0601fda0ae54cc6a3f0679e8eaee11f63c698468461f39382032', '2010-04-09 22:18:49', 'malpal@email.com', '2010-04-09 22:18:49')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-09 18:18:49) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-09 22:18:49", updated_at: "2010-04-09 22:18:49", encrypted_password: "661d59b48bd14c14b0c094585f95dada3b0e23213400a8e7569...", salt: "bd1f699aab5a0601fda0ae54cc6a3f0679e8eaee11f63c69846...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 8ms (View: 7, DB: 2) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '661d59b48bd14c14b0c094585f95dada3b0e23213400a8e756979d69948aa7b8', 'bd1f699aab5a0601fda0ae54cc6a3f0679e8eaee11f63c698468461f39382032', '2010-04-09 22:18:49', 'malpal@email.com', '2010-04-09 22:18:49')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-09 18:18:49) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-09 22:18:49", updated_at: "2010-04-09 22:18:49", encrypted_password: "661d59b48bd14c14b0c094585f95dada3b0e23213400a8e7569...", salt: "bd1f699aab5a0601fda0ae54cc6a3f0679e8eaee11f63c69846...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 7, DB: 2) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '661d59b48bd14c14b0c094585f95dada3b0e23213400a8e756979d69948aa7b8', 'bd1f699aab5a0601fda0ae54cc6a3f0679e8eaee11f63c698468461f39382032', '2010-04-09 22:18:49', 'malpal@email.com', '2010-04-09 22:18:49')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-09 18:18:49) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-09 22:18:49", updated_at: "2010-04-09 22:18:49", encrypted_password: "661d59b48bd14c14b0c094585f95dada3b0e23213400a8e7569...", salt: "bd1f699aab5a0601fda0ae54cc6a3f0679e8eaee11f63c69846...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 2) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-09 18:18:49) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-09 18:18:49) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-09 18:18:49) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-09 18:18:49) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-09 18:18:49) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-09 18:18:49) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-11 15:20:42) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (18.0ms)
+Rendered layouts/_header (3.0ms)
+Rendered layouts/_footer (4.0ms)
+Completed in 271ms (View: 262, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-11 15:20:43) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 13ms (View: 13, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '58422975e47e132f3737ae7d300f47ab0de2ab17fc5f2ffc3fc99236ba235537', '7a743519f79691ccea3dedd6169919dec5324ca48bd216a6071b6a8ab3b748d3', '2010-04-11 19:20:44', 'malpal@email.com', '2010-04-11 19:20:44')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-11 15:20:44) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-11 19:20:44", updated_at: "2010-04-11 19:20:44", encrypted_password: "58422975e47e132f3737ae7d300f47ab0de2ab17fc5f2ffc3fc...", salt: "7a743519f79691ccea3dedd6169919dec5324ca48bd216a6071...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 7, DB: 2) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'aaa7e08f3097edd4a9922084030c6d09d103f416863034c27dd0d22e1f4c87b4', 'a990af8ed844a17e2ae3b7ad19426fe8f94fd186ebf790d17a261e0d417f40b4', '2010-04-11 19:20:44', 'malpal@email.com', '2010-04-11 19:20:44')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-11 15:20:44) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-11 19:20:44", updated_at: "2010-04-11 19:20:44", encrypted_password: "aaa7e08f3097edd4a9922084030c6d09d103f416863034c27dd...", salt: "a990af8ed844a17e2ae3b7ad19426fe8f94fd186ebf790d17a2...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 7ms (View: 7, DB: 1) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'aaa7e08f3097edd4a9922084030c6d09d103f416863034c27dd0d22e1f4c87b4', 'a990af8ed844a17e2ae3b7ad19426fe8f94fd186ebf790d17a261e0d417f40b4', '2010-04-11 19:20:44', 'malpal@email.com', '2010-04-11 19:20:44')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-11 15:20:44) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-11 19:20:44", updated_at: "2010-04-11 19:20:44", encrypted_password: "aaa7e08f3097edd4a9922084030c6d09d103f416863034c27dd...", salt: "a990af8ed844a17e2ae3b7ad19426fe8f94fd186ebf790d17a2...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 7ms (View: 7, DB: 2) | 200 OK [http://test.host/users/1]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-11 15:20:44) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-11 15:20:44) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-11 15:20:44) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-11 15:20:44) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-11 15:20:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-11 15:20:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-11 15:31:41) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (2.0ms)
+Completed in 118ms (View: 113, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-11 15:31:41) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '4d6ebb3657698979b0823b22f4ac6ee9f4daedbabdb080628cc9083b05357c02', '2176106845c28590063d1a24a439d79a4b117e44f35b793c8d4ceb0ef6d5850e', '2010-04-11 19:31:41', 'malpal@email.com', '2010-04-11 19:31:41')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-11 15:31:41) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-11 19:31:41", updated_at: "2010-04-11 19:31:41", encrypted_password: "4d6ebb3657698979b0823b22f4ac6ee9f4daedbabdb080628cc...", salt: "2176106845c28590063d1a24a439d79a4b117e44f35b793c8d4...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 7, DB: 1) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '4d6ebb3657698979b0823b22f4ac6ee9f4daedbabdb080628cc9083b05357c02', '2176106845c28590063d1a24a439d79a4b117e44f35b793c8d4ceb0ef6d5850e', '2010-04-11 19:31:41', 'malpal@email.com', '2010-04-11 19:31:41')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-11 15:31:41) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-11 19:31:41", updated_at: "2010-04-11 19:31:41", encrypted_password: "4d6ebb3657698979b0823b22f4ac6ee9f4daedbabdb080628cc...", salt: "2176106845c28590063d1a24a439d79a4b117e44f35b793c8d4...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 2) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '4d6ebb3657698979b0823b22f4ac6ee9f4daedbabdb080628cc9083b05357c02', '2176106845c28590063d1a24a439d79a4b117e44f35b793c8d4ceb0ef6d5850e', '2010-04-11 19:31:41', 'malpal@email.com', '2010-04-11 19:31:41')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-11 15:31:41) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-11 19:31:41", updated_at: "2010-04-11 19:31:41", encrypted_password: "4d6ebb3657698979b0823b22f4ac6ee9f4daedbabdb080628cc...", salt: "2176106845c28590063d1a24a439d79a4b117e44f35b793c8d4...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 7, DB: 2) | 200 OK [http://test.host/users/1]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-11 15:31:42) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}}
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-11 15:31:42) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}}
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-11 15:31:42) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-11 15:31:42) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-11 15:31:42) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-11 15:31:42) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-11 15:31:42) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-11 15:31:42) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-11 22:56:52) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 116ms (View: 111, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-11 22:56:52) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '756ca97561744704bc1c4e2c2ea392b9d06df804c3684bc508e2dcf7c5717fb7', 'c22204b23ea9054048bc6829a01ed3b5b682e2ec36e47141de81172abb2026ec', '2010-04-12 02:56:53', 'malpal@email.com', '2010-04-12 02:56:53')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-11 22:56:53) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-12 02:56:53", updated_at: "2010-04-12 02:56:53", encrypted_password: "756ca97561744704bc1c4e2c2ea392b9d06df804c3684bc508e...", salt: "c22204b23ea9054048bc6829a01ed3b5b682e2ec36e47141de8...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 7, DB: 1) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '756ca97561744704bc1c4e2c2ea392b9d06df804c3684bc508e2dcf7c5717fb7', 'c22204b23ea9054048bc6829a01ed3b5b682e2ec36e47141de81172abb2026ec', '2010-04-12 02:56:53', 'malpal@email.com', '2010-04-12 02:56:53')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-11 22:56:53) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-12 02:56:53", updated_at: "2010-04-12 02:56:53", encrypted_password: "756ca97561744704bc1c4e2c2ea392b9d06df804c3684bc508e...", salt: "c22204b23ea9054048bc6829a01ed3b5b682e2ec36e47141de8...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 2) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '756ca97561744704bc1c4e2c2ea392b9d06df804c3684bc508e2dcf7c5717fb7', 'c22204b23ea9054048bc6829a01ed3b5b682e2ec36e47141de81172abb2026ec', '2010-04-12 02:56:53', 'malpal@email.com', '2010-04-12 02:56:53')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-11 22:56:53) [GET]
+  Parameters: {"id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-12 02:56:53", updated_at: "2010-04-12 02:56:53", encrypted_password: "756ca97561744704bc1c4e2c2ea392b9d06df804c3684bc508e...", salt: "c22204b23ea9054048bc6829a01ed3b5b682e2ec36e47141de8...">}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 6, DB: 3) | 200 OK [http://test.host/users/1]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-11 22:56:53) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-11 22:56:53) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-11 22:56:53) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-11 22:56:53) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-11 22:56:53) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-11 22:56:53) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-11 22:56:53) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-11 22:56:53) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-12 16:55:46) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (4.0ms)
+Rendered layouts/_header (4.0ms)
+Rendered layouts/_footer (2.0ms)
+Completed in 189ms (View: 182, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-12 16:55:46) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (14.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '35373b08fb4fbe1b5659c5e0ca701774944453668f2d9aabbe296241bfab5435', '86e00bb60f5d8af2b6cfd8b991a76396f821225fbcb90c6c056c7f79eabfbcbe', '2010-04-12 20:55:47', 'malpal@email.com', '2010-04-12 20:55:47')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 16:55:47) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-12 20:55:47", updated_at: "2010-04-12 20:55:47", encrypted_password: "35373b08fb4fbe1b5659c5e0ca701774944453668f2d9aabbe2...", salt: "86e00bb60f5d8af2b6cfd8b991a76396f821225fbcb90c6c056...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 11ms (View: 11, DB: 14) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (3.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '35373b08fb4fbe1b5659c5e0ca701774944453668f2d9aabbe296241bfab5435', '86e00bb60f5d8af2b6cfd8b991a76396f821225fbcb90c6c056c7f79eabfbcbe', '2010-04-12 20:55:47', 'malpal@email.com', '2010-04-12 20:55:47')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 16:55:47) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-12 20:55:47", updated_at: "2010-04-12 20:55:47", encrypted_password: "35373b08fb4fbe1b5659c5e0ca701774944453668f2d9aabbe2...", salt: "86e00bb60f5d8af2b6cfd8b991a76396f821225fbcb90c6c056...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 5, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '35373b08fb4fbe1b5659c5e0ca701774944453668f2d9aabbe296241bfab5435', '86e00bb60f5d8af2b6cfd8b991a76396f821225fbcb90c6c056c7f79eabfbcbe', '2010-04-12 20:55:47', 'malpal@email.com', '2010-04-12 20:55:47')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 16:55:47) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-12 20:55:47", updated_at: "2010-04-12 20:55:47", encrypted_password: "35373b08fb4fbe1b5659c5e0ca701774944453668f2d9aabbe2...", salt: "86e00bb60f5d8af2b6cfd8b991a76396f821225fbcb90c6c056...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 9, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '7717e0c9868be2dee7178955553c3f6393e2a6d93b435cd965911504013f5046', '434627d33a342a848a8f1126f061ea29e71d15e996b418e395278b342326b6cd', '2010-04-12 20:55:47', 'email@email.com', '2010-04-12 20:55:47')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 16:55:47) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 13ms (View: 13, DB: 2) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 16:55:47) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-12 16:55:47) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-12 16:55:47) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-12 16:55:47) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-12 16:55:47) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-12 16:55:47) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-12 16:55:47) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-12 17:08:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (5.0ms)
+Rendered layouts/_header (4.0ms)
+Rendered layouts/_footer (3.0ms)
+Completed in 186ms (View: 177, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-12 17:08:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (5.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '6426e8245303c62576759e93ccad50d3b2959fce3bf6dbdf7835369b8ee21889', '2aa9fe32c16f62ca88a7b82849390f9cd44a93d80c80f1856ef07770493a7058', '2010-04-12 21:08:27', 'malpal@email.com', '2010-04-12 21:08:27')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 17:08:27) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-12 21:08:27", updated_at: "2010-04-12 21:08:27", encrypted_password: "6426e8245303c62576759e93ccad50d3b2959fce3bf6dbdf783...", salt: "2aa9fe32c16f62ca88a7b82849390f9cd44a93d80c80f1856ef...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 8ms (View: 7, DB: 6) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '6426e8245303c62576759e93ccad50d3b2959fce3bf6dbdf7835369b8ee21889', '2aa9fe32c16f62ca88a7b82849390f9cd44a93d80c80f1856ef07770493a7058', '2010-04-12 21:08:27', 'malpal@email.com', '2010-04-12 21:08:27')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 17:08:27) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-12 21:08:27", updated_at: "2010-04-12 21:08:27", encrypted_password: "6426e8245303c62576759e93ccad50d3b2959fce3bf6dbdf783...", salt: "2aa9fe32c16f62ca88a7b82849390f9cd44a93d80c80f1856ef...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 6, DB: 2) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (4.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '6426e8245303c62576759e93ccad50d3b2959fce3bf6dbdf7835369b8ee21889', '2aa9fe32c16f62ca88a7b82849390f9cd44a93d80c80f1856ef07770493a7058', '2010-04-12 21:08:27', 'malpal@email.com', '2010-04-12 21:08:27')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 17:08:27) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-12 21:08:27", updated_at: "2010-04-12 21:08:27", encrypted_password: "6426e8245303c62576759e93ccad50d3b2959fce3bf6dbdf783...", salt: "2aa9fe32c16f62ca88a7b82849390f9cd44a93d80c80f1856ef...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 8, DB: 6) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '5c2c4854f9c154d3a3223cc3995fccb617414cc7ee19e7e74d3b76555c37cf79', 'f7142ed46f4ec7ecce28fd31c0513a941af9f76a47198b328edc5d6a25cae2d9', '2010-04-12 21:08:27', 'email@email.com', '2010-04-12 21:08:27')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 17:08:27) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 1ms (DB: 2) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 17:08:27) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 19ms (View: 18, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 17:08:27) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 14ms (View: 14, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-12 17:08:27) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-12 17:08:27) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-12 17:08:27) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-12 17:08:27) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-12 17:08:27) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-12 17:08:27) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-12 22:42:32) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (4.0ms)
+Rendered layouts/_header (3.0ms)
+Rendered layouts/_footer (2.0ms)
+Completed in 152ms (View: 145, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-12 22:42:32) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '534d3d28eb5796038382a0b78079cb04ebb7347137dc89be220e3b68987b126b', '45dd5b4979cd1d812d357019d901c2d3cc03283951fbdaa7379fd374e73f02d8', '2010-04-13 02:42:33', 'malpal@email.com', '2010-04-13 02:42:33')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 22:42:33) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 02:42:33", updated_at: "2010-04-13 02:42:33", encrypted_password: "534d3d28eb5796038382a0b78079cb04ebb7347137dc89be220...", salt: "45dd5b4979cd1d812d357019d901c2d3cc03283951fbdaa7379...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 9, DB: 2) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (2.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '534d3d28eb5796038382a0b78079cb04ebb7347137dc89be220e3b68987b126b', '45dd5b4979cd1d812d357019d901c2d3cc03283951fbdaa7379fd374e73f02d8', '2010-04-13 02:42:33', 'malpal@email.com', '2010-04-13 02:42:33')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 22:42:33) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 02:42:33", updated_at: "2010-04-13 02:42:33", encrypted_password: "534d3d28eb5796038382a0b78079cb04ebb7347137dc89be220...", salt: "45dd5b4979cd1d812d357019d901c2d3cc03283951fbdaa7379...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 8ms (View: 8, DB: 4) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (1.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '534d3d28eb5796038382a0b78079cb04ebb7347137dc89be220e3b68987b126b', '45dd5b4979cd1d812d357019d901c2d3cc03283951fbdaa7379fd374e73f02d8', '2010-04-13 02:42:33', 'malpal@email.com', '2010-04-13 02:42:33')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 22:42:33) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 02:42:33", updated_at: "2010-04-13 02:42:33", encrypted_password: "534d3d28eb5796038382a0b78079cb04ebb7347137dc89be220...", salt: "45dd5b4979cd1d812d357019d901c2d3cc03283951fbdaa7379...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 11ms (View: 9, DB: 1) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (3.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '2f9511c03323865daa03f9b90d896ad64a1f00a98fd10c21afd648aa3e8b8376', '68d180b344e8f4bf262ff5d3cf765f62c94f487004076317e048a654b639345e', '2010-04-13 02:42:33', 'email@email.com', '2010-04-13 02:42:33')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:42:33) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 1ms (DB: 3) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '2f9511c03323865daa03f9b90d896ad64a1f00a98fd10c21afd648aa3e8b8376', '68d180b344e8f4bf262ff5d3cf765f62c94f487004076317e048a654b639345e', '2010-04-13 02:42:33', 'email@email.com', '2010-04-13 02:42:33')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:42:33) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 2ms (DB: 3) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:42:33) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 12ms (View: 12, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:42:33) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 13ms (View: 12, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-12 22:42:33) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 11ms (View: 8, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-12 22:42:33) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (2.0ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-12 22:42:33) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-12 22:42:33) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-12 22:42:33) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-12 22:42:33) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-12 22:45:22) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (5.0ms)
+Rendered layouts/_header (3.0ms)
+Rendered layouts/_footer (3.0ms)
+Completed in 176ms (View: 167, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-12 22:45:22) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 13ms (View: 13, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '072abe4032f9f4d1e644d21f9970bf1e6ade2ada57bdc190abea4172d08064cc', 'd0d33d8f229d8290bf29cd7a1c479d21e91ccf1e7388725dfdd26b09fa13c03c', '2010-04-13 02:45:23', 'malpal@email.com', '2010-04-13 02:45:23')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 22:45:23) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 02:45:23", updated_at: "2010-04-13 02:45:23", encrypted_password: "072abe4032f9f4d1e644d21f9970bf1e6ade2ada57bdc190abe...", salt: "d0d33d8f229d8290bf29cd7a1c479d21e91ccf1e7388725dfdd...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 13ms (View: 11, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '072abe4032f9f4d1e644d21f9970bf1e6ade2ada57bdc190abea4172d08064cc', 'd0d33d8f229d8290bf29cd7a1c479d21e91ccf1e7388725dfdd26b09fa13c03c', '2010-04-13 02:45:23', 'malpal@email.com', '2010-04-13 02:45:23')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 22:45:23) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 02:45:23", updated_at: "2010-04-13 02:45:23", encrypted_password: "072abe4032f9f4d1e644d21f9970bf1e6ade2ada57bdc190abe...", salt: "d0d33d8f229d8290bf29cd7a1c479d21e91ccf1e7388725dfdd...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 9, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '072abe4032f9f4d1e644d21f9970bf1e6ade2ada57bdc190abea4172d08064cc', 'd0d33d8f229d8290bf29cd7a1c479d21e91ccf1e7388725dfdd26b09fa13c03c', '2010-04-13 02:45:23', 'malpal@email.com', '2010-04-13 02:45:23')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 22:45:23) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 02:45:23", updated_at: "2010-04-13 02:45:23", encrypted_password: "072abe4032f9f4d1e644d21f9970bf1e6ade2ada57bdc190abe...", salt: "d0d33d8f229d8290bf29cd7a1c479d21e91ccf1e7388725dfdd...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 9, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (3.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '714428a584ff7a96baff85377e89fff364e9966add4c3f2553493aa2953f0228', '78dea86a2b50e40a4c632d66c42accb3881384e29eaef8227b07563fbfa82bac', '2010-04-13 02:45:23', 'email@email.com', '2010-04-13 02:45:23')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:45:23) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 2ms (DB: 3) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (3.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '714428a584ff7a96baff85377e89fff364e9966add4c3f2553493aa2953f0228', '78dea86a2b50e40a4c632d66c42accb3881384e29eaef8227b07563fbfa82bac', '2010-04-13 02:45:23', 'email@email.com', '2010-04-13 02:45:23')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:45:23) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 2ms (DB: 4) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:45:23) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 14ms (View: 14, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:45:23) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-12 22:45:23) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-12 22:45:23) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-12 22:45:23) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-12 22:45:23) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-12 22:45:23) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-12 22:45:23) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-12 22:54:07) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (6.0ms)
+Rendered layouts/_header (3.0ms)
+Rendered layouts/_footer (2.0ms)
+Completed in 171ms (View: 163, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-12 22:54:07) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'f8e0c89a835b1009da97783688318cfbf3942f69600db383acb8b9dab56fdea5', 'e1d3fc849f876681cc3a197babb0e195a7bbec2997217cac83dd1162fda2d848', '2010-04-13 02:54:08', 'malpal@email.com', '2010-04-13 02:54:08')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 22:54:08) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 02:54:08", updated_at: "2010-04-13 02:54:08", encrypted_password: "f8e0c89a835b1009da97783688318cfbf3942f69600db383acb...", salt: "e1d3fc849f876681cc3a197babb0e195a7bbec2997217cac83d...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 11ms (View: 11, DB: 2) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'f8e0c89a835b1009da97783688318cfbf3942f69600db383acb8b9dab56fdea5', 'e1d3fc849f876681cc3a197babb0e195a7bbec2997217cac83dd1162fda2d848', '2010-04-13 02:54:08', 'malpal@email.com', '2010-04-13 02:54:08')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 22:54:08) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 02:54:08", updated_at: "2010-04-13 02:54:08", encrypted_password: "f8e0c89a835b1009da97783688318cfbf3942f69600db383acb...", salt: "e1d3fc849f876681cc3a197babb0e195a7bbec2997217cac83d...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 13ms (View: 12, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'f8e0c89a835b1009da97783688318cfbf3942f69600db383acb8b9dab56fdea5', 'e1d3fc849f876681cc3a197babb0e195a7bbec2997217cac83dd1162fda2d848', '2010-04-13 02:54:08', 'malpal@email.com', '2010-04-13 02:54:08')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-12 22:54:08) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 02:54:08", updated_at: "2010-04-13 02:54:08", encrypted_password: "f8e0c89a835b1009da97783688318cfbf3942f69600db383acb...", salt: "e1d3fc849f876681cc3a197babb0e195a7bbec2997217cac83d...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 10ms (View: 9, DB: 2) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '811313ce3616936331e9ed2e414bbca0acf3768995ae24420052eab12b84fc9f', 'feb6f0a7ba770f76f5e9d799eea4fcf699ac2a080c1f355f87a86580c9af2fd5', '2010-04-13 02:54:08', 'email@email.com', '2010-04-13 02:54:08')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:54:08) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 1ms (DB: 3) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (4.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '811313ce3616936331e9ed2e414bbca0acf3768995ae24420052eab12b84fc9f', 'feb6f0a7ba770f76f5e9d799eea4fcf699ac2a080c1f355f87a86580c9af2fd5', '2010-04-13 02:54:08', 'email@email.com', '2010-04-13 02:54:08')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:54:08) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 1ms (DB: 5) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:54:08) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-12 22:54:08) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-12 22:54:08) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-12 22:54:08) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-12 22:54:08) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-12 22:54:08) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-12 22:54:08) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-12 22:54:08) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-13 13:04:27) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (2.0ms)
+Completed in 277ms (View: 267, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-13 13:04:27) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '97cd13f24f3614529c02724fc59c5484c7b0967b2440b8827b9555faba813e3f', 'f7b6b8dbfbbb13ecf0fa8a585c2925dc1bf44aaf994d891fafb30e441838e849', '2010-04-13 17:04:29', 'malpal@email.com', '2010-04-13 17:04:29')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-13 13:04:29) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 17:04:29", updated_at: "2010-04-13 17:04:29", encrypted_password: "97cd13f24f3614529c02724fc59c5484c7b0967b2440b8827b9...", salt: "f7b6b8dbfbbb13ecf0fa8a585c2925dc1bf44aaf994d891fafb...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 13ms (View: 12, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'e7470029ce15584f6f9405cbdc1ba7091b762746d09c0a0e25d639bc70c83d5f', 'e647fa0abb8d7c8664e8fad56075d3eb65a7d322020947d24a366b7d124ad14e', '2010-04-13 17:04:29', 'malpal@email.com', '2010-04-13 17:04:29')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-13 13:04:29) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 17:04:29", updated_at: "2010-04-13 17:04:29", encrypted_password: "e7470029ce15584f6f9405cbdc1ba7091b762746d09c0a0e25d...", salt: "e647fa0abb8d7c8664e8fad56075d3eb65a7d322020947d24a3...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 9, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'e7470029ce15584f6f9405cbdc1ba7091b762746d09c0a0e25d639bc70c83d5f', 'e647fa0abb8d7c8664e8fad56075d3eb65a7d322020947d24a366b7d124ad14e', '2010-04-13 17:04:29', 'malpal@email.com', '2010-04-13 17:04:29')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-13 13:04:29) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 17:04:29", updated_at: "2010-04-13 17:04:29", encrypted_password: "e7470029ce15584f6f9405cbdc1ba7091b762746d09c0a0e25d...", salt: "e647fa0abb8d7c8664e8fad56075d3eb65a7d322020947d24a3...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (3.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 15, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (7.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '7ed0034fe7c9044c4de6a481b381caaf35e73a1aca3d39d5bb4886002051d0f0', '05ddb1fa129fb7d665d34a770a1070e2b91026a9f7b11c46c6ba83ca2cb6e91e', '2010-04-13 17:04:29', 'email@email.com', '2010-04-13 17:04:29')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 13:04:29) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 1ms (DB: 8) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (3.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '7ed0034fe7c9044c4de6a481b381caaf35e73a1aca3d39d5bb4886002051d0f0', '05ddb1fa129fb7d665d34a770a1070e2b91026a9f7b11c46c6ba83ca2cb6e91e', '2010-04-13 17:04:29', 'email@email.com', '2010-04-13 17:04:29')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 13:04:29) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 2ms (DB: 3) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 13:04:29) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 13:04:29) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 16ms (View: 15, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-13 13:04:29) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 14ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-13 13:04:29) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-13 13:04:29) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-13 13:04:29) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-13 13:04:29) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-13 13:04:29) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 8ms (View: 8, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-13 15:19:41) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (4.0ms)
+Rendered layouts/_footer (2.0ms)
+Completed in 227ms (View: 219, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-13 15:19:41) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '15ee89e079dcbf6c5897eacf134a4c0e0320e51d7e526c37fae457cd5a7003b7', '81872034215911f40166aab66b42e41130e8213d525ca805d49d3f2e4827ba44', '2010-04-13 19:19:42', 'malpal@email.com', '2010-04-13 19:19:42')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-13 15:19:42) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 19:19:42", updated_at: "2010-04-13 19:19:42", encrypted_password: "15ee89e079dcbf6c5897eacf134a4c0e0320e51d7e526c37fae...", salt: "81872034215911f40166aab66b42e41130e8213d525ca805d49...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 10ms (View: 9, DB: 2) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '15ee89e079dcbf6c5897eacf134a4c0e0320e51d7e526c37fae457cd5a7003b7', '81872034215911f40166aab66b42e41130e8213d525ca805d49d3f2e4827ba44', '2010-04-13 19:19:42', 'malpal@email.com', '2010-04-13 19:19:42')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-13 15:19:42) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 19:19:42", updated_at: "2010-04-13 19:19:42", encrypted_password: "15ee89e079dcbf6c5897eacf134a4c0e0320e51d7e526c37fae...", salt: "81872034215911f40166aab66b42e41130e8213d525ca805d49...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 6ms (View: 5, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '15ee89e079dcbf6c5897eacf134a4c0e0320e51d7e526c37fae457cd5a7003b7', '81872034215911f40166aab66b42e41130e8213d525ca805d49d3f2e4827ba44', '2010-04-13 19:19:42', 'malpal@email.com', '2010-04-13 19:19:42')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-13 15:19:42) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 19:19:42", updated_at: "2010-04-13 19:19:42", encrypted_password: "15ee89e079dcbf6c5897eacf134a4c0e0320e51d7e526c37fae...", salt: "81872034215911f40166aab66b42e41130e8213d525ca805d49...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 10, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (3.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'b653081ea1dcfc325ef18182c169404866f1bf8633f97653d308f046190a4562', '9f310d4a0d094a6c9d683ff478697b9aac36bdf94473e77ab51fea280a347922', '2010-04-13 19:19:42', 'email@email.com', '2010-04-13 19:19:42')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 15:19:42) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 1ms (DB: 4) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (3.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'b653081ea1dcfc325ef18182c169404866f1bf8633f97653d308f046190a4562', '9f310d4a0d094a6c9d683ff478697b9aac36bdf94473e77ab51fea280a347922', '2010-04-13 19:19:42', 'email@email.com', '2010-04-13 19:19:42')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 15:19:42) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 1ms (DB: 3) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 15:19:42) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 15:19:42) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 12ms (View: 12, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-13 15:19:42) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-13 15:19:42) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-13 15:19:42) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-13 15:19:42) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 5ms (View: 5, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-13 15:19:42) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-13 15:19:42) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-13 15:40:43) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (6.0ms)
+Rendered layouts/_header (4.0ms)
+Rendered layouts/_footer (3.0ms)
+Completed in 193ms (View: 185, DB: 0) | 200 OK [http://test.host/users/new]
+
+
+Processing UsersController#new (for 0.0.0.0 at 2010-04-13 15:40:43) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://test.host/users/new]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'aa9a4b4512c8f36a291024bed632596ed61dcb57d78a32e8d7a153446a8bd307', '83a07e8f4e9fe643ba85a3649c0d9b4d81c341273a95a5e95e4c7db376cbdda2', '2010-04-13 19:40:44', 'malpal@email.com', '2010-04-13 19:40:44')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-13 15:40:44) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 19:40:44", updated_at: "2010-04-13 19:40:44", encrypted_password: "aa9a4b4512c8f36a291024bed632596ed61dcb57d78a32e8d7a...", salt: "83a07e8f4e9fe643ba85a3649c0d9b4d81c341273a95a5e95e4...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 12ms (View: 11, DB: 3) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (3.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'aa9a4b4512c8f36a291024bed632596ed61dcb57d78a32e8d7a153446a8bd307', '83a07e8f4e9fe643ba85a3649c0d9b4d81c341273a95a5e95e4c7db376cbdda2', '2010-04-13 19:40:44', 'malpal@email.com', '2010-04-13 19:40:44')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-13 15:40:44) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 19:40:44", updated_at: "2010-04-13 19:40:44", encrypted_password: "aa9a4b4512c8f36a291024bed632596ed61dcb57d78a32e8d7a...", salt: "83a07e8f4e9fe643ba85a3649c0d9b4d81c341273a95a5e95e4...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 9, DB: 4) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'malpal@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (4.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', 'aa9a4b4512c8f36a291024bed632596ed61dcb57d78a32e8d7a153446a8bd307', '83a07e8f4e9fe643ba85a3649c0d9b4d81c341273a95a5e95e4c7db376cbdda2', '2010-04-13 19:40:44', 'malpal@email.com', '2010-04-13 19:40:44')[0m
+
+
+Processing UsersController#show (for 0.0.0.0 at 2010-04-13 15:40:44) [GET]
+  Parameters: {"action"=>"show", "id"=>#<User id: 1, name: "Mallory", email: "malpal@email.com", created_at: "2010-04-13 19:40:44", updated_at: "2010-04-13 19:40:44", encrypted_password: "aa9a4b4512c8f36a291024bed632596ed61dcb57d78a32e8d7a...", salt: "83a07e8f4e9fe643ba85a3649c0d9b4d81c341273a95a5e95e4...">, "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 12ms (View: 11, DB: 5) | 200 OK [http://test.host/users/1]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (3.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '23a4b88bfab4a81c841abcb8ee767334cd701839554de284803cfb8524fc032d', '00249a06631604f2c32d26fa1ebb34f0d7e6f2e72b7804d407e46ee94a7ebde6', '2010-04-13 19:40:44', 'email@email.com', '2010-04-13 19:40:44')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 15:40:44) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 2ms (DB: 3) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'email@email.com') LIMIT 1[0m
+  [4;35;1mUser Create (2.0ms)[0m   [0mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Mallory', '23a4b88bfab4a81c841abcb8ee767334cd701839554de284803cfb8524fc032d', '00249a06631604f2c32d26fa1ebb34f0d7e6f2e72b7804d407e46ee94a7ebde6', '2010-04-13 19:40:44', 'email@email.com', '2010-04-13 19:40:44')[0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 15:40:44) [POST]
+  Parameters: {"user"=>{"name"=>"Mallory", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"email@email.com"}, "action"=>"create", "controller"=>"users"}
+Redirected to http://test.host/users/1
+Completed in 1ms (DB: 3) | 302 Found [http://test.host/users?user%5Bemail%5D=email%40email.com&user%5Bname%5D=Mallory&user%5Bpassword%5D=password&user%5Bpassword_confirmation%5D=password]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 15:40:44) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (3.0ms)
+Completed in 17ms (View: 16, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+
+
+Processing UsersController#create (for 0.0.0.0 at 2010-04-13 15:40:44) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "action"=>"create", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (3.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://test.host/users?user%5Bemail%5D=&user%5Bname%5D=&user%5Bpassword%5D=&user%5Bpassword_confirmation%5D=]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-13 15:40:45) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#about (for 0.0.0.0 at 2010-04-13 15:40:45) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://test.host/pages/about]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-13 15:40:45) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#contact (for 0.0.0.0 at 2010-04-13 15:40:45) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (4.0ms)
+Rendered layouts/_header (2.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://test.host/pages/contact]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-13 15:40:45) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 11ms (View: 11, DB: 0) | 200 OK [http://test.host/pages/home]
+
+
+Processing PagesController#home (for 0.0.0.0 at 2010-04-13 15:40:45) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://test.host/pages/home]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+REQUESTING PAGE: GET http://www.example.com/signup with {} and HTTP headers {}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-13 15:43:10) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (5.0ms)
+Rendered layouts/_header (4.0ms)
+Rendered layouts/_footer (2.0ms)
+Completed in 1089ms (View: 1084, DB: 1) | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-04-13 15:43:11) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign up", "action"=>"create", "controller"=>"users"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 53ms (View: 48, DB: 1) | 200 OK [http://www.example.com/users]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-13 15:43:11) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (4.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 24ms (View: 19, DB: 1) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-04-13 15:43:11) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-04-13 15:43:11) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (3.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 12ms (View: 12, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-13 15:43:11) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (2.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://www.example.com/signup/]
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+REQUESTING PAGE: GET http://www.example.com/signup with {} and HTTP headers {}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-13 21:06:51) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (6.0ms)
+Rendered layouts/_header (4.0ms)
+Rendered layouts/_footer (3.0ms)
+Completed in 1409ms (View: 1404, DB: 2) | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"user"=>{"name"=>"Example User", "password_confirmation"=>"Password", "password"=>"Password", "email"=>"example@email.com"}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-04-13 21:06:52) [POST]
+  Parameters: {"user"=>{"name"=>"Example User", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"example@email.com"}, "commit"=>"Sign up", "action"=>"create", "controller"=>"users"}
+  [4;35;1mUser Load (1.0ms)[0m   [0mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = 'example@email.com') LIMIT 1[0m
+  [4;36;1mUser Create (2.0ms)[0m   [0;1mINSERT INTO "users" ("name", "encrypted_password", "salt", "updated_at", "email", "created_at") VALUES('Example User', '078829e03ceabb276621f1069fb3dea4b133f7a541e3afca9c9e3d1432937e39', '19fe99eef3d32432ee575a3a749d9e51d85509fe6fac522baea977b8be760e12', '2010-04-14 01:06:53', 'example@email.com', '2010-04-14 01:06:53')[0m
+Redirected to http://www.example.com/users/1
+Completed in 553ms (DB: 3) | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/users/1 with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-04-13 21:06:53) [GET]
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"users"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+Rendered layouts/_stylesheets (103.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 135ms (View: 111, DB: 0) | 200 OK [http://www.example.com/users/1]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "users" [0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+REQUESTING PAGE: GET http://www.example.com/signup with {} and HTTP headers {}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-13 21:06:53) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (0.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 12ms (View: 11, DB: 2) | 200 OK [http://www.example.com/signup]
+REQUESTING PAGE: POST /users with {"user"=>{"name"=>"", "password_confirmation"=>"", "password"=>"", "email"=>""}, "commit"=>"Sign up"} and HTTP headers {"HTTP_REFERER"=>"http://www.example.com/signup"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-04-13 21:06:53) [POST]
+  Parameters: {"user"=>{"name"=>"", "password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>""}, "commit"=>"Sign up", "action"=>"create", "controller"=>"users"}
+  [4;36;1mUser Load (1.0ms)[0m   [0;1mSELECT "users".id FROM "users" WHERE (LOWER("users"."email") = '') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 37ms (View: 34, DB: 1) | 200 OK [http://www.example.com/users]
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT count(*) AS count_all FROM "users" [0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-04-13 21:06:54) [GET]
+  Parameters: {"action"=>"home", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/home
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://www.example.com/]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-04-13 21:06:54) [GET]
+  Parameters: {"action"=>"contact", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/contact
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://www.example.com/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-04-13 21:06:54) [GET]
+  Parameters: {"action"=>"about", "controller"=>"pages"}
+Rendering template within layouts/application
+Rendering pages/about
+Rendered layouts/_stylesheets (0.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (1.0ms)
+Completed in 7ms (View: 7, DB: 0) | 200 OK [http://www.example.com/about]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-04-13 21:06:54) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_stylesheets (1.0ms)
+Rendered layouts/_header (1.0ms)
+Rendered layouts/_footer (0.0ms)
+Completed in 9ms (View: 9, DB: 0) | 200 OK [http://www.example.com/signup/]
