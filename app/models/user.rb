@@ -35,12 +35,19 @@ class User < ActiveRecord::Base
 		
 	end
 	
+	def remember_me!
+		self.remember_token = encrypt("#{salt}--#{id}")
+		save_without_validation
+	end
+	
 	
 	private
 	
 		def encrypt_password
-			self.salt = make_salt
-			self.encrypted_password = encrypt(password)
+			unless password.nil?
+				self.salt = make_salt
+				self.encrypted_password = encrypt(password)
+			end
 		end
 		
 		def encrypt(string)

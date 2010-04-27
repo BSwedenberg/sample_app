@@ -10,7 +10,7 @@ describe User do
 	@attr = {:name => "Brian",
 			 :email => "fake@fake.com",
 			 :password => "wordpass",
-			 #:password_confirmation => "password"
+			 :password_confirmation => "wordpass"
 			 }
   end
   
@@ -122,4 +122,23 @@ describe User do
 					
 		end
     end
+	
+	describe "remember me" do
+		before(:each) do
+			@user = User.create!(@attr)
+		end
+		
+		it "should have a remember_me method" do
+			@user.should respond_to(:remember_me!)
+		end
+		
+		it "should have a remember_token" do
+			@user.should respond_to(:remember_token)
+		end
+		
+		it "should set the remember_token" do
+			@user.remember_me!
+			@user.remember_token.should_not be_nil
+		end
+	end
 end
