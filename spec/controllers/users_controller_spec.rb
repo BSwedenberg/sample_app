@@ -90,4 +90,56 @@ describe UsersController do
 	end
   
   end
+  
+  describe "Get 'edit'" do
+	before(:each) do
+		@user = Factory(:user)
+		test_sign_in(@user)
+	end
+	
+	it "should be successful" do
+		get :edit, :id => @user
+		response.should be_success
+	end
+	
+	it "should have the right title" do
+		get :edit, :id => @user
+		response.should have_tag("title", /edit user/i)
+	end
+  end
+  
+  describe "GET 'index'" do
+	describe "for non-signed-in user" do
+		it "should deny access" do
+			get :index
+			response.should redirect_to(signin_path)
+			flash[:notice].should =~ /sign in/i
+		end
+	end
+	
+	describe "for signed-in users" do
+		before(:each) do
+			@user = test_sign_in(Factory(:user))
+		end
+		
+		it "should be successful" do
+			get :index
+			response.should be_success
+		end
+		
+		it "should get correct page" do
+			get :index
+			response.should have_tag("title", /all users/i)
+		end
+		
+		it "should have an element for each user" do
+			second_user = Factory(:user, :email => "another@example.com")
+			third_user =  Factory(:user, :email => "another@example.net")
+			get :index
+			[@user, second_user, third_user].each do |user|
+				response.should have_tag("li", user.name)
+			end
+		end
+	end
+  end
 end
